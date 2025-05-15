@@ -1,5 +1,6 @@
 class Demo{
-public static void main(String[] args){
-System.out.println("hi");
+public void randomNumber(){
+Random r = new Random();
+System.out.println(r.nextLong());
 }
 }
